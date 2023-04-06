@@ -1,12 +1,12 @@
 function example() {
-    function dummy1() {
+    function dummy() {
         return 2;
     }
-    function dummy2() {
+    return dummy();
+    function dummy() {
         return 5;
     }
-    return dummy2();
-    return dummy1();
+    return dummy();
 }
 
 console.log(example());
